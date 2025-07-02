@@ -48,9 +48,8 @@ Developed as part of a **2025 Internship Project at PES University**.
 
 <video width="700" controls autoplay muted loop>
   <source src="media/sim_navigation_demo.mp4" type="mp4">
-  Your browser does not support the video tag.
+  
 </video>
-
 ---
 
 ## 💻 Requirements
