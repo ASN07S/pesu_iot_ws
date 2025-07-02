@@ -27,6 +27,11 @@ Developed as part of a **2025 Internship Project at PES University**.
 - 🛠️ CAD + demo video included  
 
 ---
+## 🖼️ Robot Model (CAD)
+
+<img src="images/cad_model.png" alt="Robot CAD Model" width="600"/>
+
+---
 
 ## 💻 Requirements
 
