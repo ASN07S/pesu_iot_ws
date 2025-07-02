@@ -27,9 +27,22 @@ Developed as part of a **2025 Internship Project at PES University**.
 - 🛠️ CAD + demo video included  
 
 ---
-<img src="media/cad_front_view.png.png" alt="Our UGV Model" width="600"/>
-<img src="media/cad_side_view.png.png" alt="Our UGV Model" width="600"/>
+## 🖼️ Robot Model (CAD)
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="media/cad_front_view.png.png" alt="Front Isometric View" width="450"/>
+      <br/><b>🔹 Front Isometric View</b>
+    </td>
+    <td align="center">
+      <img src="media/cad_side_view.png.png" alt="Side Elevation View" width="450"/>
+      <br/><b>🔸 Side Elevation View</b>
+    </td>
+  </tr>
+</table>
+
+> 📐 Designed in **Fusion 360** as part of our UGV prototype during the internship at **PES University**.
 ---
 
 ## 💻 Requirements
