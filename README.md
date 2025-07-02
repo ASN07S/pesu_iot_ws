@@ -44,10 +44,12 @@ Developed as part of a **2025 Internship Project at PES University**.
 
 > 📐 Designed in **Fusion 360** as part of our UGV prototype during the internship at **PES University**.
 
-## 🎬 Simulation Result
+## 🎬 Simulation & Real-World Demo
 
-▶️ [Click to watch the demo video](media/sim_navigation_demo.mp4)
-
+<video width="700" controls autoplay muted loop>
+  <source src="media/sim_navigation_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
