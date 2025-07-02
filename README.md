@@ -12,7 +12,7 @@ It features:
 The system was tested successfully in simulation, demonstrating full autonomous exploration.  
 > ⚠️ On the real robot, full autonomy was **partially implemented** due to hardware tuning and control issues.
 
-Developed as part of a **2025 Internship Project at PES University**.
+Developed as part of a **2025 Internship Project at PES University, Under the guidance of Dr.Ashok kumar patil, professor Pes University**
 
 ---
 
