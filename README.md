@@ -29,7 +29,8 @@ Developed as part of a **2025 Internship Project at PES University**.
 ---
 ## 🖼️ Robot Model (CAD)
 
-<img src="images/cad_model.png" alt="Robot CAD Model" width="600"/>
+<img src="media/cad_front_view.png" alt="Our UGV Model" width="600"/>
+<img src="media/cad_side_view.png" alt="Our UGV Model" width="600"/>
 
 ---
 
