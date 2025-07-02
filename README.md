@@ -59,8 +59,33 @@ This project integrates the [**Vector Pursuit Controller**](https://github.com/b
 
 ## 📦 Get Started
 
+## Install ROS 2 Dependencies
+- sudo apt update
+- sudo apt install ros-humble-cartographer \
+  ros-humble-navigation2 \ ros-humble-nav2-bringup \
+  ros-humble-vector-pursuit-controller \
+  ros-humble-rviz2
+
 ### 1. Clone the Repo
 
 ```bash
 git clone https://github.com/ASN07S/pesu_iot_ws.git
 cd pesu_iot_ws
+colcon build --symlink-install
+source install/setup.bash
+
+### Launch Components for mapping Real_UGV
+1.Run YDLidar Driver
+  ros2 launch ydlidar_ros2_driver ydlidar_launch.py
+2.Launch SLAM
+  ros2 launch ydlidar_ros2_driver ydlidar_cartographer_launch.py
+3.Save Map from Cartographer SLAM
+  ros2 run nav2_map_server map_saver_cli -f ~/your_map
+
+### Launch Components for Navigation Real_UGV
+1.Run YDLidar Driver
+  ros2 launch ydlidar_ros2_driver ydlidar_launch.py
+2. Start Vector Pursuit Navigation
+  ros2 launch vector_pursuit_navigation pesu_bot.py
+3. Start Arduino Serial Bridge
+  ros2 run nav2_arduino_bringup arduino_odometry_node
