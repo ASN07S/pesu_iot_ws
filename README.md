@@ -44,14 +44,25 @@ Developed as part of a **2025 Internship Project at PES University**.
 
 > 📐 Designed in **Fusion 360** as part of our UGV prototype during the internship at **PES University**.
 
-## 🎬 Simulation & Real-World Demo
+---
 
-<video width="700" controls autoplay muted loop>
-  <source src="media/sim_navigation_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+## 🛰️ Real-World Mapping Results
 
-> 🎥 The video includes autonomous mapping and navigation using Cartographer SLAM and Nav2 stack, tested in both simulation and real-world trials.
+<div style="display: flex; gap: 20px;">
+
+  <div style="flex: 1;">
+    <h4>🔹 Corridor Environment (Real World)</h4>
+    <img src="media/11th_floor_corridor.jpeg" alt="Test Corridor" width="100%"/>
+    <p><em>The test was conducted in a corridor of PES University’s 11th floor. The robot navigated this space using onboard LiDAR and localization.</em></p>
+  </div>
+
+  <div style="flex: 1;">
+    <h4>🔹 Real-Time SLAM & Trajectory on Robot</h4>
+    <img src="media/real_ugv_slam.png.png" alt="SLAM Trajectory Map" width="100%"/>
+    <p><em>The map was generated using <strong>Cartographer SLAM</strong>. The robot traced the path (in blue) during autonomous mapping.</em></p>
+  </div>
+
+</div>
 
 ---
 
