@@ -1,0 +1,31 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_link
+  update_frequency: 2.0
+  publish_frequency: 2.0
+  rolling_window: false
+  track_unknown_space: true
+  width: 10.0
+  height: 10.0
+  resolution: 0.05
+
+  plugins:
+    - {name: static_layer, type: "nav2_costmap_2d::StaticLayer"}
+    - {name: obstacle_layer, type: "nav2_costmap_2d::ObstacleLayer"}
+    - {name: inflation_layer, type: "nav2_costmap_2d::InflationLayer"}
+
+  static_layer:
+    map_topic: "/map"
+    subscribe_to_updates: true
+
+  obstacle_layer:
+    observation_sources: scan
+    scan:
+      topic: /scan
+      max_obstacle_height: 2.0
+      marking: true
+      clearing: true
+
+  inflation_layer:
+    inflation_radius: 0.5
+
