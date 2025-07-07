@@ -104,11 +104,13 @@ This project integrates the [**Vector Pursuit Controller**](https://github.com/b
   ros-humble-vector-pursuit-controller \
   ros-humble-rviz2
 
-### 1. Clone the Repo
+### 1. Clone the Repository and Build
 
 ```bash
 git clone https://github.com/ASN07S/pesu_iot_ws.git
 cd pesu_iot_ws
+mkdir -p src
+# Move packages into src if not already there
 colcon build --symlink-install
 source install/setup.bash
 
